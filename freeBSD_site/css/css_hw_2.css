@@ -1,0 +1,194 @@
+* {
+	color: #000;
+	font-family: arial;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 850px;
+}
+
+#header{
+	/*margin: 10px; */
+}
+
+#banner {
+	background-color: #7f0000;
+	height: 75px;
+}
+
+#banner img {
+	float: left;
+	padding-left: 20px;
+}
+
+#banner h1 {
+	color: white;
+	float: left;
+	font-family: Stone, American, Optima;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 25px 0px;
+	width: 200px;
+}
+
+#banner_links {
+	float: right;
+	margin-top: 10px;
+	padding-right: 40px;
+}
+
+#banner_links ul li {
+	border-right: 1px solid white;
+	color: white;
+	display: inline;
+	list-style-type: none;
+}
+
+#banner_links ul li:first-child {
+	border: none;
+}
+
+#banner_links ul li:last-child {
+	border: none;
+}
+
+#banner_links ul li a {
+	color: #dda652;
+	padding: 0px 5px;
+}
+
+#search_form {
+	float: right;
+	padding: 10px 40px 0px 0px;
+}
+
+#search_form input[type="text"] {
+	border: 1px solid silver;
+	color: #444;
+	font-size: 10px;
+	padding: 2px 3px;
+	width: 150px;
+}
+
+#search_form input[type="submit"] {
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	font-size: 10px;
+	margin-right: 7px;
+	padding: 2px 3px;
+}
+
+#navigation {
+	background-color: #e3e3e3;
+	border: 1px solid silver;
+	padding: 5px;
+}
+
+#navigation ul li {
+	border-right: 2px solid silver;
+	display: inline;
+	font-weight: bold;
+	list-style-type: none;
+	padding: 0px 10px;
+}
+
+#navigation ul li:last-child {
+	border: none;
+}
+
+#navigation ul li a {
+	color: #666;
+	text-decoration: none;
+}
+
+#sidebar {
+	background-color: #eee;
+	border: 1px solid silver;
+	float: left;
+	margin: 15px;
+	padding: 15px;
+	width: 140px;
+}
+
+/* Note to self: for the custom bullet points, see */
+/* http://www.macworld.com/article/1048296/januarycreate.html */
+#sidebar ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+#sidebar ul li {
+	background: url(../images/custom_bullet.png) left top no-repeat;
+	margin: 0px 5px;
+	padding: 0px 5px 5px 10px;
+}
+
+#sidebar ul li a {
+	color: #a00000;
+}
+
+#main_content {
+	float: right;
+	margin: 5px 10px 10px 0px;
+	padding: 15px;
+	width: 600px;
+ }
+
+#main_content h1 {
+ 	color: #a00000;
+ 	font-size: 20px;
+ 	padding: 0px 5px 5px 5px;
+ }
+
+#main_content h2 {
+ 	color: #a00000;
+ 	padding: 5px;
+ }
+
+#main_content p {
+ 	padding: 5px;
+ }
+
+#main_content ul {
+	margin-left: 40px;
+	padding: 5px;
+ }
+
+#main_content ul li a{
+ 	color: #a00000;
+ 	text-decoration: underline;
+ }
+
+#main_content a {
+ 	color: #a00000;
+ 	text-decoration: underline;
+ }
+
+#main_content ol {
+	margin-left: 40px;
+	padding: 5px;
+ }
+
+#main_content ol li a{
+ 	color: #a00000;
+ 	text-decoration: underline;
+ }
+
+.border_line {
+ 	border: 1px solid silver;
+ 	margin: 5px 0px;
+ }
+
+ .bold_date {
+ 	font-weight: bold;
+ }
+
+.clear{
+	clear: both;
+ }

@@ -1,0 +1,106 @@
+*{
+	border-radius: 20px;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 730px;
+}
+
+#header{
+	/*font-size: 30px;*/
+	margin: 10px;
+}
+
+#header h1 {
+	font-size: 40px;
+	padding: 15px;
+}
+
+#header, #sidebar, #footer {
+	background-color: #ddd;
+}
+
+#main_content {
+	margin-top:10px;
+ }
+
+#sidebar {
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	width: 180px;
+}
+
+#sidebar ul li {
+	color: blue;
+	margin-left: 15px;
+	padding: 2px;
+}
+
+#sidebar ul li.no_marker {
+	list-style-type: none;
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+a {
+	color: blue;
+}
+
+a:visited {
+	color: #a53c37;
+}
+
+a.bold_link {
+	font-weight: bold;
+}
+
+a.not_bold_link {
+	font-weight: normal;
+}
+
+#essay_section {
+	background-color: #aaa;
+	float: right;
+	margin: 10px 10px 10px 0px;
+	padding: 20px;
+	width: 450px;
+}
+
+#essay_section h2 {
+	font-size: 30px;
+}
+
+#essay_section p {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#essay_section ul {
+	padding-left: 30px;
+}
+
+#essay_section ul li {
+	padding: 5px;
+}
+
+.clear{
+	clear: both;
+ }
+
+#footer {
+	clear: both;
+	margin: 10px;
+	padding: 15px;
+}
+
+span.email_address {
+	color: blue;
+	text-decoration: underline;
+}

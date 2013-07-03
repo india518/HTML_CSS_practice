@@ -1,0 +1,157 @@
+* {
+	color: #000;
+	font: inherit;
+	font-family: arial;
+	font-size: 12px;
+	/*margin: 0px auto;*/
+	padding: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+#container {
+	margin: 0px auto;
+	overflow: hidden;
+	width: 960px;
+}
+
+#banner {
+	padding: 0px 25px;
+}
+
+#phone {
+	float: right;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 30px 20px 0px 0px;
+	text-transform: uppercase;
+}
+
+#navigation {
+	background-color: #edf0f0;
+	border-top: 2px solid #dbdbdb;
+	margin-bottom: 25px;
+	padding-left: 30px;
+}
+
+#navigation ul {
+	padding: 5px 10px;
+}
+
+#navigation ul li {
+	border-left: 1px solid #dbdbdb;
+	display: inline;
+	list-style-type: none;
+	margin: 5px 0px;
+	padding: 5px 16px;
+}
+
+#navigation ul li:last-child {
+	border-right: 1px solid #dbdbdb;
+}
+
+#navigation ul li a {
+	color: #6a7987;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#main_content {
+	background-color: black;
+	height: auto;
+	overflow: hidden;
+}
+
+#office_pic {
+	border: 5px solid white;
+	float: left;
+	height: 230px;
+	margin: 15px 0px 0px 35px;
+	width: 340px;
+}
+
+#about {
+	background-color: #696969;
+	float: left;
+	height: 240px;
+	margin: 15px 25px 0px 15px;
+	width: 530px;
+}
+
+#about h1 {
+	background-color: #ffc30e;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+#about h3, #about p {
+	color: white;
+	padding: 0px 20px;
+}
+
+#about h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#bulk_delivery {
+	margin: 10px 0px 10px 35px;
+}
+
+#bulk_delivery span {
+	color: #ffc30e;
+	margin-left: 20px;
+}
+
+#product_wrapper {
+	margin-left: 20px;
+}
+
+#automotive, #commercial, #industrial, #diesel {
+	float: left;
+	margin: 10px 15px;
+}
+
+.products {
+	background-color: white;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 5px;
+	width: 200px;
+}
+
+.products h2 {
+	background-color: #ffc30e;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+.products p {
+	margin: 0px;
+	padding: 5px 10px;
+}
+
+.read_more {
+	background-color: #ffc30e;
+	border: 2px solid black;
+	/* It doesn't look like an arrow,
+	  But the TAs told me not to waste
+	  any more time on this element! */
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	float: right;
+	margin: 10px;
+	padding: 3px 10px;
+	text-decoration: none;
+}

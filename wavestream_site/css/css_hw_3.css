@@ -1,0 +1,269 @@
+* {
+	color: #000;
+	font: inherit;
+	font-family: arial;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	color: #007f9a;
+}
+
+.gray_text {
+	color: #818181;
+}
+
+.blue_text {
+	color: #007f9a;
+}
+
+.bold_text {
+	font-weight: bold;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.site_path_text {
+	/* I made this a class because
+	there migh be more text links
+	in the nav_path on other pages
+	in the site */
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#wrapper {
+	overflow: hidden;
+	width: 1000px;
+}
+
+#header {}
+
+#header img {
+	float: left;
+	margin: 35px 10px;
+	padding: 4px 0px;
+}
+
+#header h1 {
+	float: left;
+	margin: 35px 0px;
+	width: 200px;
+}
+
+#header h1 * {
+	/* I'm not sure I like this solution */
+	/* Is there a better way to do this? */
+	/* (Make one word two different colors,
+	    and be able to control the font size?) */
+	font-size: 30px;
+}
+
+#login {
+	background-color: #0082ab;
+	border-radius: 5px;
+	color: white;
+	float: right;
+	margin-right: 25px;
+	padding: 2px 15px;
+}
+
+#navigation {
+	background-color: #f8f8f8;
+	border: 1px solid #b4b4b4;
+	border-radius: 0px 0px 5px 5px;
+	float: right;
+	margin-right: 20px;
+	padding: 0px 10px 10px 10px;
+}
+
+#navigation li {
+	border-right: 2px solid #b4b4b4;
+	display: inline;
+	list-style-type: none;
+	padding: 0px 7px 0px 5px;
+}
+
+#navigation li:last-child {
+	border: none;
+}
+
+#navigation li a {
+	color: #b4b4b4;
+	text-decoration: none;
+}
+
+#banner {
+	background-color: #0082ab;
+	clear: both;
+	color: white;
+	font-size: 20px;
+	padding: 20px 10px;
+}
+/* end header div */
+
+#sidebar {
+	float: left;
+	margin-right: 0px;
+	margin-top: 30px;
+	padding: 10px;
+	width: 220px;
+}
+
+#ppc_advert {
+	border-bottom: 1px solid silver;
+	padding: 10px 0px;
+}
+
+#ppc_advert h3 {
+	font-size: 18px;
+}
+
+#ppc_advert h4 {
+	color: #ee8020;
+	margin-top: 5px;
+}
+
+#ppc_advert button {
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	margin: 5px 0px 0px 0px;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	width: 220px;
+}
+
+#demo {
+	background-color: #0082ab;
+}
+
+#trial {
+	background-color: #ee8020;
+}
+
+#adword_advert {
+	border: 1px solid silver;
+	margin: 10px 15px 0px 0px;
+	padding: 4px 0px 0px 0px;
+}
+
+#adword_advert h3 {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 0px 10px;
+}
+
+#adword_advert p {
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 5px 10px;
+}
+
+#adword_grade {
+	background-color: #0082ab;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	margin: 0px 10px;
+	padding: 2px 10px;
+	width: 180px;	
+}
+
+#adword_advert img {
+	padding: 10px 0px 0px 0px;
+	width: 205px;
+}
+/* end sidebar div */
+
+#main_content {
+	float: right;
+	margin-right: 20px;
+	width: 700px;
+}
+
+#site_path {
+	display: inline;
+	float: left;
+	height: 20px;
+	margin: 10px 0px;
+	padding: 5px 0px;
+}
+
+#site_path img {
+	height: 20px;
+}
+
+#phone_info {
+	display: inline;
+	float: right;
+	margin: 10px;
+	text-align: center;
+}
+
+#phone_pic {
+	float: left;
+	margin: 5px;
+}
+
+#data_block {
+	float: right;
+}
+
+#main_phone_number {
+	color: #00aedd;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#main_body {
+	border-top: 1px solid silver;
+	clear: both;
+	margin: 10px 25px 10px 0px;
+	padding: 10px 0px;
+}
+
+#main_body h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#main_body p {
+	padding: 10px 0px;
+}
+
+#main_body ul li {
+	list-style-type: square;
+	margin: 10px 0px 10px 15px;
+}
+#main_free_trial_ad {
+	border: 5px solid #7ebdd8;
+}
+
+#main_free_trial_ad img {
+	float: left;
+	margin: 5px;
+}
+
+#get_started {
+	background-color: #aec72c;
+	border: 2px solid #5a7e28;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	margin: 5px 0px;
+	padding: 7px 0px;
+	width: 200px;
+}
+
+#main_body h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
